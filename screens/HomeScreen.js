@@ -24,9 +24,9 @@ const HomeScreen = () => {
             {/*px-6 adds some space from the left side*/}
             {/*mt-16 adds a margin from the top of the screen*/}
             {/*space-x-2 adds a space of 2 between Texts*/}
-            <View className="flex-row px-6 mt-16 items-center space-x-2">
-                <View className="w-16 h-16 bg-black rounded-full items-center justify-center">
-                    <Text className="text-[#00bcc9] text-3xl font-semibold">Go</Text>
+            <View className="flex-row px-6 mt-16 items-center space-x-1">
+                <View className="w-16 h-16 bg-[#00bcc9] rounded-full items-center justify-center">
+                    <Text className="text-[#ffffff] text-3xl font-semibold">Go</Text>
                 </View>
                 <Text className="text-[#2A2B4B] text-3xl font-semibold">Travel</Text>
             </View>
